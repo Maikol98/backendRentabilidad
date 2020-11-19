@@ -11,7 +11,7 @@ class CategoriaController extends Controller
     public function index()
     {
         $categoria = Categoria::where('estado',1)->get();
-
+        //saaaaaaaaaaaaaaaaaaa
         return response()->json($categoria, 200);
     }
 
